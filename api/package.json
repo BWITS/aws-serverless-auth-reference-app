@@ -5,6 +5,7 @@
   "scripts": {
     "gulp": "gulp",
     "deploy": "gulp deploy",
+    "undeploy": "gulp undeploy",
     "test": "mocha **/*.spec.js"
   },
   "repository": {
