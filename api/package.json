@@ -6,6 +6,7 @@
     "gulp": "gulp",
     "deploy": "gulp deploy",
     "undeploy": "gulp undeploy",
+    "bootstrap": "gulp bootstrap",
     "test": "mocha **/*.spec.js"
   },
   "repository": {

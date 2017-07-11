@@ -52,14 +52,18 @@ Setup is quick and easy. You'll provision an EC2 instance, and run the pre-built
 
 1. **Deploy the AWS resources into your account**
 
+                cd /home/aws-serverless-auth-reference-app/api/lambda
+                npm install
 		cd /home/aws-serverless-auth-reference-app/api
-		gulp deploy
-		gulp bootstrap
+                npm install
+                npm run deploy
+                npm run bootstrap
 
 1. **Start the Ionic 2 server.** This starts up the Ionic 2 server listening on port 8100, which is port-mapped (via Docker) to port 80 of the host EC2 instance.
 
 		cd /home/aws-serverless-auth-reference-app/app
-		ionic serve
+                npm install
+                ionic serve
 
 1. **View the hybrid mobile app in your browser**, by visiting:
 
