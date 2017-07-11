@@ -67,7 +67,7 @@ Setup is quick and easy. You'll provision an EC2 instance, and run the pre-built
 
 1. **View the hybrid mobile app in your browser**, by visiting:
 
-		http://PUBLIC_DNS_OF_YOUR_EC2_SERVER/
+		http://localhost:8100
 
 1. **Open the JavaScript console**. As you interact with the hybrid mobile app, useful info will appear in the JavaScript console.
 
